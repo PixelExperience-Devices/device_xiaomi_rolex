@@ -3,18 +3,18 @@
    "remote": "github",
    "repository": "dandyfarid/android_kernel_xiaomi_msm8917",
    "target_path": "kernel/xiaomi/msm8917",
-   "branch": "lineage-16.0"
+   "branch": "up-17.0"
  },
  {
    "remote": "github",
-   "repository": "dandyfarid/vendor_xiaomi",
+   "repository": "PrincessPrincipal/vendor_xiaomi",
    "target_path": "vendor/xiaomi",
-   "branch": "lineage-16.0"
+   "branch": "ten-s-wip"
  },
  {
    "remote": "github",
    "repository": "LineageOS/android_packages_resources_devicesettings",
    "target_path": "packages/resources/devicesettings",
-   "branch": "lineage-16.0"
+   "branch": "lineage-17.0"
   }
 ]
