@@ -128,13 +128,16 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Media
 PRODUCT_PROPERTY_OVERRIDES += \
+    debug.stagefright.omx_default_rank.sw-audio=1 \
+    debug.stagefright.omx_default_rank=0 \
     mm.enable.qcom_parser=4176895 \
     media.stagefright.audio.sink=280 \
     vendor.vidc.disable.split.mode=1 \
     vendor.vidc.enc.disable_bframes=1 \
     vendor.vidc.enc.disable_pframes=1 \
     vendor.vidc.enc.disable.pq=true \
-    vendor.vidc.enc.narrow.searchrange=1
+    vendor.vidc.enc.narrow.searchrange=1 \
+    media.stagefright.thumbnail.prefer_hw_codecs=true
 
 # Memory optimizations
 PRODUCT_PROPERTY_OVERRIDES += \
