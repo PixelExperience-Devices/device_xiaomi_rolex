@@ -3,13 +3,13 @@
    "remote": "github",
    "repository": "dandyfarid/android_kernel_xiaomi_msm8917",
    "target_path": "kernel/xiaomi/msm8917",
-   "branch": "up-17.0"
+   "branch": "lineage-17.0"
  },
  {
    "remote": "github",
    "repository": "PrincessPrincipal/vendor_xiaomi",
    "target_path": "vendor/xiaomi",
-   "branch": "ten-s-wip"
+   "branch": "ten"
  },
  {
    "remote": "github",
